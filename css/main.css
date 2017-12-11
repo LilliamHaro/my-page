@@ -6,7 +6,7 @@
 }
 .header {
   width: 100%;
-  background-color: #b7447a;
+  background-color: #453153;
   padding: 20px 50px;
 }
 .logo {
@@ -29,7 +29,7 @@
 .image-center {
   height: 400px;
   width: 100%;
-  background-image: url("../assets/images/city.jpg");
+  background-image: url("../assets/images/galaxy.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,7 +60,7 @@ h3 {
   margin-right: 10px;
 }
 .button {
-  background-color: #453153;
+  background-color: #546180;
   color: #fff;
   width: 100px;
   height: 30px;
@@ -88,7 +88,7 @@ p {
 }
 footer {
   width: 100%;
-  background-color:  #b7447a;
+  background-color:  #453153;
   text-align: center;
   color: #fff;
 }
