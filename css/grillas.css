@@ -37,7 +37,7 @@
 }
 
 .col-xs-4 {
-  width: 33.33333333%;
+  width: 31%;
 }
 
 .col-xs-5 {
@@ -119,8 +119,11 @@
 .col-xs-offset-12 {
   margin-left: 100%;
 }
+.gluter {
+  margin-right: : 0.33%;
+}
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .col-sm-1 {
     width: 8.33333333%;
   }

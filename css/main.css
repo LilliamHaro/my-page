@@ -5,8 +5,9 @@
   font-family: sans-serif;
 }
 .header {
+  width: 100%;
   background-color: #b7447a;
-  padding: 20px 100px;
+  padding: 20px 50px;
 }
 .logo {
   font-size: 24px;
@@ -30,19 +31,15 @@
   width: 100%;
   outline: 1px solid red;
 }
+.fisrt-section {
+  overflow: auto;
+}
 .main {
   padding-top: 30px;
+  overflow: auto;
 }
-.text button {
-  background-color: #453153;
-  color: #fff;
-  width: 120px;
-  height: 40px;
-  padding: 8px;
-  font-size: 13px;
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
+.contact {
+  padding-left: 25px;
 }
 .section-article {
   padding-top: 35px;
@@ -56,8 +53,9 @@ h3 {
 }
 .article {
   outline: 2px solid pink;
+  margin-right: 10px;
 }
-.article button {
+.button {
   background-color: #453153;
   color: #fff;
   width: 100px;
@@ -68,6 +66,11 @@ h3 {
   border-radius: 5px;
   margin-top: 10px;
 }
+.text .button {
+  width: 120px;
+  height: 40px;
+  font-size: 13px;
+}
 .art-image {
   width: 100%;
   height: 200px;
@@ -76,12 +79,60 @@ h3 {
   padding: 20px;
 }
 footer {
+  width: 100%;
   background-color:  #b7447a;
   text-align: center;
   line-height: 60px;
   color: #fff;
 }
+.hamburguesa {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  content: '';
+  height: 2px;
+  width: 24px;
+  background-color: #fff;
+}
+.hamburguesa::before, .hamburguesa::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 24px;
+  display: block;
+  background-color: #fff;
+}
+.hamburguesa::before {
+  top: -8px;
+}
+.hamburguesa::after {
+  top: 8px;
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
 
 @media (min-width:768px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .header {
+    padding: 20px 100px;
+  }
+}
 
+@media (max-width: 767px) {
+  .contact {
+    margin-top: 25px;
+    padding-left: 0;
+  }
+  .article {
+    margin-bottom: 25px;
+  }
 }
