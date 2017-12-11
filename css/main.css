@@ -6,7 +6,7 @@
 }
 .header {
   width: 100%;
-  background-color: #b7447a;
+  background-color: #453153;
   padding: 20px 50px;
 }
 .logo {
@@ -29,7 +29,10 @@
 .image-center {
   height: 400px;
   width: 100%;
-  outline: 1px solid red;
+  background-image: url("../assets/images/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .fisrt-section {
   overflow: auto;
@@ -52,11 +55,12 @@ h3 {
   margin-bottom: 15px;
 }
 .article {
-  outline: 2px solid pink;
+  border: 1px solid #a6aace;
+  border-radius: 8px;
   margin-right: 10px;
 }
 .button {
-  background-color: #453153;
+  background-color: #546180;
   color: #fff;
   width: 100px;
   height: 30px;
@@ -64,9 +68,10 @@ h3 {
   font-size: 11px;
   border: none;
   border-radius: 5px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 .text .button {
+  margin-top: 15px;
   width: 120px;
   height: 40px;
   font-size: 13px;
@@ -78,12 +83,17 @@ h3 {
 .text-article {
   padding: 20px;
 }
+p {
+  line-height: 22px;
+}
 footer {
   width: 100%;
-  background-color:  #b7447a;
+  background-color:  #453153;
   text-align: center;
-  line-height: 60px;
   color: #fff;
+}
+footer p {
+  line-height: 60px;
 }
 .hamburguesa {
   position: absolute;
@@ -113,6 +123,12 @@ footer {
 }
 .mobile {
   display: block;
+}
+.button-section {
+  padding: 10px 25px;
+  background-color:#a6aace;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 @media (min-width:768px) {
