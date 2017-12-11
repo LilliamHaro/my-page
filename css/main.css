@@ -42,7 +42,7 @@
   overflow: auto;
 }
 .contact {
-  padding-left: 25px;
+  padding-left: 45px;
 }
 .section-article {
   padding-top: 35px;
@@ -57,7 +57,6 @@ h3 {
 .article {
   border: 1px solid #a6aace;
   border-radius: 8px;
-  margin-right: 10px;
 }
 .button {
   background-color: #546180;
