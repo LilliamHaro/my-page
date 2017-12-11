@@ -29,7 +29,10 @@
 .image-center {
   height: 400px;
   width: 100%;
-  outline: 1px solid red;
+  background-image: url("../assets/images/city.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .fisrt-section {
   overflow: auto;
