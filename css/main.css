@@ -52,7 +52,8 @@ h3 {
   margin-bottom: 15px;
 }
 .article {
-  outline: 2px solid pink;
+  border: 1px solid #a6aace;
+  border-radius: 8px;
   margin-right: 10px;
 }
 .button {
@@ -64,9 +65,10 @@ h3 {
   font-size: 11px;
   border: none;
   border-radius: 5px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 .text .button {
+  margin-top: 15px;
   width: 120px;
   height: 40px;
   font-size: 13px;
@@ -78,12 +80,17 @@ h3 {
 .text-article {
   padding: 20px;
 }
+p {
+  line-height: 22px;
+}
 footer {
   width: 100%;
   background-color:  #b7447a;
   text-align: center;
-  line-height: 60px;
   color: #fff;
+}
+footer p {
+  line-height: 60px;
 }
 .hamburguesa {
   position: absolute;
@@ -113,6 +120,12 @@ footer {
 }
 .mobile {
   display: block;
+}
+.button-section {
+  padding: 10px 25px;
+  background-color:#a6aace;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 @media (min-width:768px) {
